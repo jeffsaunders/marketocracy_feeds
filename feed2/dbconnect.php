@@ -1,22 +1,22 @@
 <?php
-	/*if (!($mylink = mysqli_connect("192.168.111.211","root","KfabyZcbE3", "marketocracy")))
+	/*if (!($mylink = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>")))
 	    {
 		print "<h3>could not connect to database</h3>\n";
 		exit;
 	    }*/
-//    if (!($data_link = mysqli_connect("192.168.111.211","root","KfabyZcbE3", "feed2")))
-    if (!($data_link = mysqli_connect("p:192.168.111.211","marketocracy","KfabyZcbE3", "feed2")))
+//    if (!($data_link = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>")))
+    if (!($data_link = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>")))
 	    {
 		print "<h3>could not connect to database</h3>\n";
 		exit;
 	    }
-//    if(!($mLink = mysqli_connect("192.168.111.211", "root", "KfabyZcbE3", "portfolio")))
-    if(!($mLink = mysqli_connect("p:192.168.111.211", "marketocracy", "KfabyZcbE3", "portfolio")))
+//    if(!($mLink = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>")))
+    if(!($mLink = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>")))
         {
         print"<h3>could not connect to database</h3>\n";
         exit;
         }
 
-//$data_link = mysqli_connect("p:192.168.111.211","marketocracy","KfabyZcbE3", "feed2");
-//$mLink = mysqli_connect("p:192.168.111.211", "marketocracy", "KfabyZcbE3", "portfolio");
+//$data_link = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>");
+//$mLink = mysqli_connect("<ip>","<databaseUser>","<databasePassword>", "<databaseName>");
 ?>
